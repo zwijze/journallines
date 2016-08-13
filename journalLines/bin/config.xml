@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config>
+	<csvInputFile>C:\Users\zwijze2\Documents\csvInputFile.csv</csvInputFile>
+	<excelInputFile>C:\Users\zwijze2\Documents\excelInputFile.xlsx</excelInputFile>	
+	<csvOutputFile>C:\Users\zwijze2\Documents\csvOutputFile.csv</csvOutputFile>
+</config>
