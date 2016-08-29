@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://jibx.org/starter" elementFormDefault="qualified" targetNamespace="http://jibx.org/starter">
+  <xs:complexType name="customer">
+    <xs:sequence>
+      <xs:element name="person" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="firstName" minOccurs="0"/>
+            <xs:element type="xs:string" name="lastName" minOccurs="0"/>
+          </xs:sequence>
+          <xs:attribute type="xs:int" use="required" name="customerNumber"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element type="xs:string" name="street" minOccurs="0"/>
+      <xs:element type="xs:string" name="city" minOccurs="0"/>
+      <xs:element type="xs:string" name="state" minOccurs="0"/>
+      <xs:element type="xs:string" name="phone" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:int" name="zip"/>
+  </xs:complexType>
+  <xs:element type="tns:customer" name="customer"/>
+</xs:schema>
