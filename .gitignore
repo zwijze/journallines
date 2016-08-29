@@ -1,2 +1,4 @@
 .metadata
-journalLines/bin
+journalLines\bin
+jibx\examples\starter\bin
+jibx\examples\codegen\bin
